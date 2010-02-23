@@ -1,11 +1,23 @@
 --- 
-hash: 663ee390531049c37e1e940a08e8a9fd1059eaca
+hash: cc24232c1ac718a06eb27c324607ea79b279449d
 sources: 
 - Rubygems: 
     uri: http://gemcutter.org
 specs: 
+- archive-tar-minitar: 
+    version: 0.5.2
+- ruby_core_source: 
+    version: 0.1.4
+- linecache19: 
+    version: 0.5.11
+- columnize: 
+    version: 0.3.1
+- ruby-debug-base19: 
+    version: 0.11.23
 - daemons: 
     version: 1.0.10
+- ruby-debug19: 
+    version: 0.11.6
 - rack: 
     version: 1.1.0
 - xmpp4r: 
@@ -43,3 +55,9 @@ dependencies:
     version: ">= 0"
     group: 
     - :default
+  ruby-debug19: 
+    version: ">= 0"
+    group: 
+    - :development
+    require: 
+    - ruby-debug
