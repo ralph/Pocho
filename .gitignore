@@ -1,6 +1,4 @@
 *.swp
-vendor/*
 tmp/*
 log/*
-.bundle
-Gemfile.lock
+.bundle/environment.rb

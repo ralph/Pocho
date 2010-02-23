@@ -1,0 +1,45 @@
+--- 
+hash: 663ee390531049c37e1e940a08e8a9fd1059eaca
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org
+specs: 
+- daemons: 
+    version: 1.0.10
+- rack: 
+    version: 1.1.0
+- xmpp4r: 
+    version: "0.5"
+- xmpp4r-simple: 
+    version: 0.8.8
+- redis: 
+    version: 0.1.2
+- activesupport: 
+    version: 2.3.5
+- sinatra: 
+    version: 0.9.4
+dependencies: 
+  sinatra: 
+    version: ">= 0"
+    group: 
+    - :default
+  activesupport: 
+    version: ">= 0"
+    group: 
+    - :default
+  redis: 
+    version: ">= 0"
+    group: 
+    - :default
+  xmpp4r-simple: 
+    version: ">= 0"
+    group: 
+    - :default
+  xmpp4r: 
+    version: ">= 0"
+    group: 
+    - :default
+  daemons: 
+    version: ">= 0"
+    group: 
+    - :default
