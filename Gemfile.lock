@@ -1,8 +1,11 @@
 --- 
-hash: cc24232c1ac718a06eb27c324607ea79b279449d
+hash: bb32cb7b4d7e5decd6e8dc10ab3c0d3bb739f4d6
 sources: 
 - Rubygems: 
     uri: http://gemcutter.org
+- Git: 
+    uri: git://github.com/blaine/xmpp4r-simple.git
+    ref: 92e2cd0002ec3a9a38506527e1a3a2d622408626
 specs: 
 - archive-tar-minitar: 
     version: 0.5.2
@@ -14,16 +17,17 @@ specs:
     version: 0.3.1
 - ruby-debug-base19: 
     version: 0.11.23
-- daemons: 
-    version: 1.0.10
 - ruby-debug19: 
     version: 0.11.6
 - rack: 
     version: 1.1.0
+- daemons: 
+    version: 1.0.10
 - xmpp4r: 
     version: "0.5"
 - xmpp4r-simple: 
     version: 0.8.8
+    source: 1
 - redis: 
     version: 0.1.2
 - activesupport: 
@@ -43,15 +47,15 @@ dependencies:
     version: ">= 0"
     group: 
     - :default
-  xmpp4r-simple: 
-    version: ">= 0"
-    group: 
-    - :default
   xmpp4r: 
     version: ">= 0"
     group: 
     - :default
   daemons: 
+    version: ">= 0"
+    group: 
+    - :default
+  xmpp4r-simple: 
     version: ">= 0"
     group: 
     - :default
